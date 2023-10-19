@@ -1,0 +1,90 @@
+.container {
+  width: min(100%, 1440px);
+  margin: auto;
+}
+/* header start */
+
+.main_header {
+  padding: 6px 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: aquamarine; */
+}
+.logo_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+}
+
+.header_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.header_ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.travel_textt {
+  color: #fa793c;
+  font-family: Pridi;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.header_lis {
+  color: #000;
+  font-family: ABeeZee;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.fa-user {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 24px;
+  background-color: #000000;
+  border-radius: 60px;
+}
+
+.cover_section {
+  height: 550px;
+  position: relative;
+}
+
+.cover {
+  width: 100%;
+  height: 100%;
+}
+.cover_texts{
+    top: 101px;
+    left: 130px;
+    position: absolute;
+}
+
+.cover_h1 {
+  color: #fff;
+  font-family: Kanit;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 75px; /* 150% */
+  margin-bottom: 20px;
+}
+.cover_p {
+  width: calc(980 / 1440 * 100%);
+  color: #fff;
+  font-family: Kanit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+}
