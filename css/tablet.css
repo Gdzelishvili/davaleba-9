@@ -1,16 +1,17 @@
 @media only screen and (max-width: 835px){
-    .card3{
+    .last_card{
         display: none;
     }
-    .small_pics{
+    .sec3_pic{
         display: flex;
         flex-direction: row;
+        gap: 20px;
     }
-    .pics{
+    .sec3_main_div{
         flex-direction: column;
         row-gap: 20px;
     }
-    .small_picture{
+    .change_pic{
         width: 340px;
     }
 }
